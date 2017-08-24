@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding-bottom: 40px;
+}
+.sidebar-nav {
+	padding: 9px 0;
+}
+ @media (max-width: 980px) {
+/* Enable use of floated navbar text */
+
+}
+.dialog1 {
+	display: none;
+	position: absolute;
+	top: 180px;
+	left: 320px;
+	width: 320px;
+	height: 180px;
+	border: 1px solid #c3c3d6;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+
+.black_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 110%;
+	background-color: gray;
+	z-index: 1001;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity=80);
+}
+
+
+.dialog1 .dialog_content {
+	height: 25px;
+	background-color: #e8e9ee;
+	border:1px solid #E8E9EF;
+}
+
+.dialog1 .dialog_content .del_right {
+	display: block;
+	font-size: 17px;
+	height: 14px;
+	width: 14px;
+	line-height: 14px;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	float: right;
+	border: 1px solid #b3b3b3
+}
+
+.center
+{
+	text-align:center;
+}
+
+.canshu
+{
+	margin:20px 5px;
+	font-size:20px;
+}
+
+
+
